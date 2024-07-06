@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.logo-mbc {
+    width: 300px;
+    height: auto;
+}
+
+.navbar {
+    background: #EE1717;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: background-color 0.3s ease, font-size 0.3s ease;
+}
+
+.navbar a:hover {
+    font-size: 21px;
+    padding: 10px 12px;
+    background-color: #d01414;
+}
+
+.page {
+    display: none;
+    padding: 20px;
+}
+
+.current-page {
+    display: block;
+}
+
+.profile, .division {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.profile h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.3;
+    color: #333;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #EE1717 0%, #501EEE 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.profile img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-top:14px;
+    margin-bottom:10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile p, .division p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+.division {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.division h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #EE1717;
+}
+
+.division .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.division .content img {
+    margin-right: 20px;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-media, .message-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social-media h2,.message-form h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #EE1717;
+}
+
+
+.social-media a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #555;
+}
+
+.social-media p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media ul li a {
+    color: #EE1717;
+    font-size: 22px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-media ul li a:hover {
+    color: #333;
+}
+
+.message-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message-form label {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.message-form input, .message-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.message-form button {
+    padding: 10px 20px;
+    background-color: #EE1717;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.message-form button:hover {
+    background-color: #d01414;
+}
+
+.profile-me {
+    text-align: center;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.profile-me img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.profile-me .profile-info {
+    text-align: left;
+}
+
+.profile-me h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-me p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.footer {
+    background: linear-gradient(to right, #EE1717 0%, #501EEE 80%);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}

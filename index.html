@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>MBC Laboratory | REL</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+            <img class="logo-mbc" src="logombc.png" alt="MBC Laboratory Logo">
+        </header>
+        
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <div class="navbar-inner">
+                <a href="#home" onclick="goToPage(1)">Home</a>
+                <a href="#about" onclick="goToPage(2)">About</a>
+                <a href="#contact" onclick="goToPage(3)">Contact</a>
+                <a href="#me" onclick="goToPage(4)">Me</a>
+            </div>
+        </nav>
+
+        <!-- Pages -->
+        <div id="page1" class="page current-page animate-on-scroll">
+            <div class="profile">
+                <h2>MBC LABORATORY | <span class="gradient-text">We Attack, We Protect.</span></h2>
+                <img src="lab.jpg" alt="Gambar Lab Riset">
+                <p>MBC Laboratory atau kepanjangannya Multimedia Big-Data Cyber Security Laboratory, merupakan sebuah laboratorium riset yang memiliki multi-purpose dalam bidang risetnya. Bidang tersebut meliputi Cyber Security, Big Data, Geographic Information System (GIS), dan Game Tech.Lab ini juga merupakan bagian dari KK NCM atau Kelompok Keahlian Jaringan, Sibernetika dan Manajemen Rekayasa.</p>
+                <img src="people.jpg" alt="MBC Laboratory">
+                <p>Lab MBC secara aktif terlibat dalam penggunaan teknologi-teknologi baru dalam 4 bidang di atas, menciptakan inovasi-inovasi beserta karya yang dapat diimplementasikan secara real-time. Seperti kegiatan bakti sosial untuk mengajar menggunakan teknologi Augmented Reality, game making competition, Capture the Flag, dan lainnnya. Laboratorium ini berada di garis depan penelitian, dengan tujuan mengembangkan teknologi-teknologi Multimeda, Big Data, dan Cyber Security.</p>
+            </div>
+        </div>
+
+        <div id="page2" class="page animate-on-scroll">
+            <div class="division">
+                <h2>Cyber Security</h2>
+                <div class="content">
+                    <img src="cs.jpeg" alt="Cyber Security">
+                    <p>Cyber Security Division berfokus pada pengembangan teknologi untuk melindungi sistem komputer dan jaringan dari ancaman seperti peretasan, malware, dan serangan siber lainnya. Di divisi ini, terdapat beberapa role seperti White Hat, Cloud, dan juga Black Hat. Role ini nantinya akan digunakan untuk simulasi penetrasi dan riset mengenai sekuritas siber yang lainnya.</p>
+                </div>
+            </div>
+
+            <div class="division">
+                <h2>Big Data</h2>
+                    <div class="content">
+                        <img src="big-data.jpg" alt="Big Data">
+                        <p>Big Data Division berfokus pada pengumpulan, penyimpanan, analisis, dan interpretasi sejumlah besar data yang kompleks. Bagaimana cara menganalisa data dalam jumlah yang besar dan memberikan hasil Analisa beserta komentar dan saran terkait apa yang harus dilakukan berdasarkan data tersebut. Big Data juga berkaitan dengan Machine Learning, AI. Training AI mengenai analisis data dan kepentingan yang beragam.</p>
+                    </div>
+                </div>
+    
+                <div class="division">
+                <h2>GIS (Geographic Information System)</h2>
+                    <div class="content">
+                        <img src="gis.jpg" alt="GIS">
+                        <p>Sistem Informasi Geografis (GIS) Division atau Geographic Information System berfokus pada pengembangan dan penerapan teknologi untuk mengumpulkan, menganalisis, dan memvisualisasikan data geografis. Kalau kalian tahu mengenai Google Map dan GPS, GIS menaungi kedua hal tersebut dan juga system informasi yang lainnya. GIS di MBC Laboratorium juga memilik riset tentang Augmented Reality (AR). Bagaimana cara AR bekerja? Penerapannya dalam dunia nyata? Semua itu dipelajari di dalam divisi GIS.</p>
+                    </div>
+                </div>
+    
+                <div class="division">
+                <h2>Game Tech!</h2>
+                    <div class="content">
+                        <img src="game-tech.jpg" alt="Game Tech!">
+                        <p>Game Tech atau GT Division berfokus pada pengembangan dan inovasi dalam desain, pemrograman, dan teknologi yang digunakan dalam pembuatan video game.  Disini mereka belajar dan melakukan riset terkait aspek-aspek dari sebuah game. GUI, Sound/Audio, Visual, dan juga Script Game. Secara singkat, mereka mempelajari tentang bagaimana cara membuat sebuah permainan digital dari 0. That's Awesome Isn't It!!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page3" class="page animate-on-scroll">
+            <div class="social-media">
+                <h2>Contact Info :></h2>
+                <p>Email  : <a href="mailto:example@example.com">dummyemailhehe@gmail.com</a></p>
+                <p>Alamat : Jln. Mau Masuk MBC 2024, Dunia Impian 696942</p>
+                <p>Telp   : 08xxxxxxxx</p>
+                <p>Social Media:
+                    <ul>
+                        <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+                    </ul>
+                </p>
+            </div>
+            <div
+            <div class="message-form">
+                <h2>Message Me ! :></h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <button type="submit">Submit!!</button>
+                </form>
+            </div>
+        </div>
+
+        <div id="page4" class="page animate-on-scroll">
+            <div class="profile-me">
+                <img src="me.jpg" alt="Foto Farrel">
+                <div class="profile-info">
+                    <h2>Farrel Ardya </h2>
+                    <p>Halo Semua! Kenalin nama gue Farrel Ardya dari Telkom University. Diving into the world of technologies and programming. Nice to know you all! - Rel.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <p>mbcrell since 2024.</p>
+    </footer>
+
+    <!-- Script -->
+    <script>
+        function goToPage(pageNumber) {
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('current-page');
+            });
+
+            document.getElementById(`page${pageNumber}`).classList.add('current-page');
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const elements = document.querySelectorAll(".animate-on-scroll");
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("visible");
+                    } else {
+                        entry.target.classList.remove("visible");
+                    }
+                });
+            });
+
+            elements.forEach(element => observer.observe(element));
+        });
+    </script>
+</body>
+</html>
